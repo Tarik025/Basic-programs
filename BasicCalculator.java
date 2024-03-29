@@ -10,10 +10,10 @@ public static void main(String [] args){
 	String opt = sc.next();
 
 
-	System.out.println("Enter First number");
+	System.out.println("Enter number");
 	int num1 = sc.nextInt();
 	
-	System.out.println("Enter First number");
+	System.out.println("Enter another number");
 	int num2 = sc.nextInt();
 
 	
@@ -26,16 +26,16 @@ public static void main(String [] args){
 		break; 
 		
 		case "-":
-			 System.out.println(num1 + " - " + num2 + (num1+num2));
+			 System.out.println(num1 + " - " + num2 + " = " + (num1-num2));
 		break;
 
 		case "*":
-			System.out.println(num1 + " * " + num2 + (num1*num2));
+			System.out.println(num1 + " * " + num2 + " = " + (num1*num2));
 		break;
 		
 		case "/":
 			if(num2 != 0){
-			  System.out.println(num1 + " / " + num2 + (num1/num2));
+			  System.out.println(num1 + " / " + num2 + " = " +(num1/num2));
 			}
 			else{
 			  System.out.println(" Not define ");
